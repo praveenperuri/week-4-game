@@ -8,7 +8,7 @@ var losses = 0;
 
 var uniqueRandoms = [];
 
-var numRandoms = 10;
+var numRandoms = 13;
 
 function makeUniqueRandom() {
 
@@ -25,8 +25,10 @@ function makeUniqueRandom() {
     return val;
 }
 
+//max: 120
+//min: 19
 function startGame() {
-    targetNumber = Math.floor(Math.random() * 50) + 10;;
+    targetNumber = Math.floor(Math.random() * 102) + 19;;
     $("#number-to-guess").text(" " + targetNumber + " ");
 
     counter = 0;
@@ -35,7 +37,7 @@ function startGame() {
 
     uniqueRandoms = [];
 
-    numRandoms = 10;
+    numRandoms = 13;
 
     $("#imgDiamond").attr("data-crystalvalue", makeUniqueRandom());
     $("#imgSapphire").attr("data-crystalvalue", makeUniqueRandom());
