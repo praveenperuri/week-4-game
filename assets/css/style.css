@@ -1,0 +1,61 @@
+	body {
+		background-image: url("../images/bg-crystals.jpg");
+	}
+
+	span {
+		text-align: center;
+		font-weight: bolder;
+		font-size: x-large;
+	}
+
+	.crystals {
+		width:50%;
+		float: left;
+		border: 1px groove blue;  
+		text-align: center;
+		margin: 0 auto;
+	}
+
+    .crystal-image {
+      width: 100px;
+      height: 100px;
+      padding: 5px;
+      border-style: outset;
+    }
+
+    .pageHeader {
+    	width: 100%;
+    	padding: 25px;
+    	background-color: #FFA500;
+    	text-align: center;
+    	font-size: 75px;
+    	float: left;
+    }
+
+    .gameScore {
+    	width:100px;
+    	float: right;
+    	padding: 20px;
+    	border: 1px solid black;
+    	background-color: #ff7f50;
+    	line-height: 1.5em;
+    }
+
+    .target {
+    	width:50%;
+		float: left;
+		padding: 20px;
+		text-align: center;
+		border: 1px solid black;
+    	background-color: #ADD8E6;
+
+    }
+
+    .counter {
+    	width:50%;
+		float: left;
+		padding: 20px;
+		text-align: center;
+		border: 1px solid black;
+    	background-color: #32CD32;
+    }
